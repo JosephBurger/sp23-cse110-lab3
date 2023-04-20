@@ -2,23 +2,24 @@
 <html lang="en">
 
 <head>
+    <link href="mystyle.css" rel="stylesheet"
     <meta charset="UTF-8">
     <title>Magic 8-Ball Brainstorm</title>
 
 </head>
 
 <body>
-    <header>
+    <header class ="box">
         <div>
-            <h1>Group 20 Brainstorming</h1>
-            <h2>April 16th, 2023</h2>
+            <h1 class = "Title">Group 20 Brainstorming</h1>
+            <h2 class = "date">April 16th, 2023</h2>
         </div>
         <details>
             <summary>Details</summary>
             This is an Example Meeting Minutes! Used for template Practice!
         </details>
         <nav>
-            <ul>
+            <ul id = "meetingSchedule">
                 <li><a href="#attendence">Attendence</a></li>
                 <li><a href="#agenda">Agenda</a></li>
                 <li><a href="#unfinishedBuisness">Unfinished Buisness</a></li>
@@ -30,7 +31,7 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class = attendence>
             <h3 id="attendence">Attendence</h3>
             <ol>
                 <li><input type="checkbox" /> Brandon Kao</li>
@@ -47,7 +48,7 @@
         </section>
 
 
-        <section>
+        <section class ="agendaStyle">
             <h3 id="agenda">Agenda</h3>
             <ol>
                 <li><input type="checkbox" /> Choosing Team-Name</li>
@@ -62,18 +63,18 @@
 
         </section>
 
-        <section>
+        <section class = "unfinishedBuisnessStyle">
             <h3 id="unfinishedBuisness"> Unfinished Buisness</h3>
             <p> This will be our first <span class="random">meeting!</span></p>
 
         </section>
 
-        <section>
+        <section class = "newBuisnessStyle">
             <h3 id="newBuisness"> New Buisness</h3>
             <p> We agreed on our team name,<strong> Ravers Who Code </strong>. We will meeting every week, Thursday from 5-7. Introductions were made. Management will be discussed in our meeting on thursday! </p>
         </section>
 
-        <section>
+        <section class = "miscStyle">
             <h2 id="misc"> Misc</h2>
             <p> Among us <b>Tonight!!!!</b></p>
             <p> Here is a Small Poem about Me!!</p>
@@ -82,12 +83,12 @@
             <p> What time do you guys generally do most of your coding? I am a late night coder!!</p>
         </section>
 
-        <section>
+        <section class = "pictureMediaStyle">
             <h3 id="pictureMedia"> Picture Media</h3>
             <img src="whiteboard.jpg" alt="Software Engineering Whiteboard" />
         </section>
 
-        <section>
+        <section class = "audioMediaStyle">
             <h3 id="audioMedia"> Audio/Video Media</h3>
             <p>Click on the play button to play a sound:</p>
             <audio controls src="testing.mp3"></audio>
@@ -95,7 +96,7 @@
             <p> Click on the play button to play video:</p>
             <video controls src="videoTest.mp4"></video>
         </section>
-        <section>
+        <section class = "formStyle">
             <form>
                 <P>This will be an Example Form, not totally Functional</P>
                 <label> Today's Date:</label>
@@ -131,7 +132,7 @@
             </form>
         </section>
     </main>
-    <footer>
+    <footer class = "footerStyle">
         <h4> Contact Me </h4>
         <form>
             <input type="text" placeholder="Any Questions?" />
