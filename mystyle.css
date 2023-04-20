@@ -1,0 +1,63 @@
+html {background-color:#5A5A5A}
+/* used for header styling */
+.box{
+    background-color: #c0c0c0;
+}
+
+/*used for "Group 20 Brainstorming styling*/
+.Title{
+    background-color:black;
+    color:white;
+}
+
+/*used for date styling*/
+.date{
+
+}
+/*used for Scehedule stlying */
+.meetingSchedule{
+    background-color: #c0c0c0;
+}
+/*used for attendence styling */
+.attendence{
+    background-color: #c0c0c0;
+}
+ /*used for agenda styling */
+ .agendaStyle{
+    background-color: #c0c0c0;
+ }
+
+ /*used for unfinishedBuisness styling */
+ .unfinishedBuisnessStyle{
+    background-color: #c0c0c0;
+ }
+ 
+ /*used for newBuisness styling */
+ .newBuisnessStyle{
+    background-color: #c0c0c0;
+ }
+
+/*used for Misc styling */
+ .miscStyle{
+    background-color: #c0c0c0;
+ }
+
+ /*used for pictureMedia styling */
+ .pictureMediaStyle{
+    background-color: #c0c0c0;
+ }
+
+ /*used for audio clip styling */
+ .audioMediaStyle{
+    background-color: #c0c0c0;
+ }
+
+ /*used for form styling */
+ .formStyle{
+    background-color: #c0c0c0;
+ }
+
+ /*used for footer styling */
+ .footerStyle{
+    background-color: #c0c0c0;
+ }
