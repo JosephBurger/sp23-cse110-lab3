@@ -7,7 +7,32 @@ html {background-color:#5A5A5A}
 /*used for "Group 20 Brainstorming styling*/
 .Title{
     background-color:black;
-    color:white;
+    color:purple;
+}
+/* style for all li text */
+li{
+    color: purple;
+}
+
+/*setting all p text stling */
+p{
+    color:purple;
+}
+
+/*style for all body text */
+body{
+    font-size: 1.3em;
+    width: 600px;
+    margin : 0 auto;
+    padding: 0 10pt 10pt 10pt;
+    boarder: 5px solid black;
+}
+
+img{
+    padding: 5mm;
+    width: 35pc;
+    display:block;
+    margin: 0 auto;
 }
 
 /*used for date styling*/
@@ -52,10 +77,18 @@ html {background-color:#5A5A5A}
     background-color: #c0c0c0;
  }
 
+ /*used to change dimensions of video*/
+ video{
+    padding: 1vi;
+    width: 35pc;
+    display:block;
+    margin: 1vmax;
+ }
  /*used for form styling */
  .formStyle{
     background-color: #c0c0c0;
  }
+
 
  /*used for footer styling */
  .footerStyle{
