@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
 <head>
-    <link href="mystyle.css" rel="stylesheet"
-    <meta charset="UTF-8">
+    <link href="mystyle.css" rel="stylesheet" <meta charset="UTF-8">
     <title>Magic 8-Ball Brainstorm</title>
 
 </head>
 
 <body>
-    <header class ="box">
+    <header class="box">
         <div>
-            <h1 class = "Title">Group 20 Brainstorming</h1>
-            <h2 class = "date">April 16th, 2023</h2>
+            <h1 class="Title">Group 20 Brainstorming</h1>
+            <h2 class="date">April 16th, 2023</h2>
         </div>
         <details>
             <summary>Details</summary>
             This is an Example Meeting Minutes! Used for template Practice!
         </details>
         <nav>
-            <ul id = "meetingSchedule">
+            <ul class="meetingSchedule">
                 <li><a href="#attendence" style="color:rgb(195, 120, 233)">Attendence</a></li>
                 <li><a href="#agenda" style="color:rgb(195, 120, 233)">Agenda</a></li>
                 <li><a href="#unfinishedBuisness" style="color:rgb(195, 120, 233)">Unfinished Buisness</a></li>
@@ -31,7 +31,15 @@
         </nav>
     </header>
     <main>
-        <section class = attendence>
+        <div class="wrapper">
+            <div class="choice a">A</div>
+            <div class="choice b">B</div>
+            <div class="choice c">C</div>
+            <div class="choice d">D</div>
+            <div class="choice e">E</div>
+            <div class="choice f">F</div>
+        </div>
+        <section class="attendence">
             <h3 id="attendence">Attendence</h3>
             <ol>
                 <li><input type="checkbox" /> Brandon Kao</li>
@@ -48,7 +56,7 @@
         </section>
 
 
-        <section class ="agendaStyle">
+        <section class="agendaStyle">
             <h3 id="agenda">Agenda</h3>
             <ol>
                 <li><input type="checkbox" /> Choosing Team-Name</li>
@@ -63,18 +71,18 @@
 
         </section>
 
-        <section class = "unfinishedBuisnessStyle">
+        <section class="unfinishedBuisnessStyle">
             <h3 id="unfinishedBuisness"> Unfinished Buisness</h3>
             <p> This will be our first <span class="random">meeting!</span></p>
 
         </section>
 
-        <section class = "newBuisnessStyle">
+        <section class="newBuisnessStyle">
             <h3 id="newBuisness"> New Buisness</h3>
             <p> We agreed on our team name,<strong> Ravers Who Code </strong>. We will meeting every week, Thursday from 5-7. Introductions were made. Management will be discussed in our meeting on thursday! </p>
         </section>
 
-        <section class = "miscStyle">
+        <section class="miscStyle">
             <h2 id="misc"> Misc</h2>
             <p> Among us <b>Tonight!!!!</b></p>
             <p> Here is a Small Poem about Me!!</p>
@@ -83,12 +91,12 @@
             <p> What time do you guys generally do most of your coding? I am a late night coder!!</p>
         </section>
 
-        <section class = "pictureMediaStyle">
+        <section class="pictureMediaStyle">
             <h3 id="pictureMedia"> Picture Media</h3>
             <img src="whiteboard.jpg" alt="Software Engineering Whiteboard" />
         </section>
 
-        <section class = "audioMediaStyle">
+        <section class="audioMediaStyle">
             <h3 id="audioMedia"> Audio/Video Media</h3>
             <p>Click on the play button to play a sound:</p>
             <audio controls src="testing.mp3"></audio>
@@ -96,7 +104,7 @@
             <p> Click on the play button to play video:</p>
             <video controls src="videoTest.mp4"></video>
         </section>
-        <section class = "formStyle">
+        <section class="formStyle">
             <form>
                 <P>This will be an Example Form, not totally Functional</P>
                 <label> Today's Date:</label>
@@ -132,7 +140,7 @@
             </form>
         </section>
     </main>
-    <footer class = "footerStyle">
+    <footer class="footerStyle">
         <h4> Contact Me </h4>
         <form>
             <input type="text" placeholder="Any Questions?" />

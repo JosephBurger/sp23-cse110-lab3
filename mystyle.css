@@ -1,96 +1,286 @@
-html {background-color:#5A5A5A}
-/* used for header styling */
-.box{
-    background-color: #c0c0c0;
+html {
+    background-color: #5A5A5A
 }
 
-/*used for "Group 20 Brainstorming styling*/
-.Title{
-    background-color:black;
-    color:purple;
+
+/* used for header styling */
+
+.box {
+    background-color: lavender;
 }
+
+
+/*used for "Group 20 Brainstorming styling*/
+
+.Title {
+    background-color: black;
+    color: purple;
+    border-width: 1px;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 10px;
+}
+
+@media(min-width:600px) {
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+
 /* style for all li text */
-li{
+
+li {
     color: purple;
 }
 
-/*setting all p text stling */
-p{
-    color:purple;
+* {
+    color: Purple;
 }
+
+
+/*setting all p text stling */
+
+p {
+    font-family: "Press Start 2p";
+    color: purple;
+}
+
+a:hover[href="#attendence"],
+a:hover[href="#unfinishedBuisness"],
+a:hover[href="#agenda"],
+a:hover[href="#misc"],
+a:hover[href="#pictureMedia"],
+a:hover[href="#audioMedia"],
+a:hover[href="#newBuisness"] {
+    background-color: yellow;
+}
+
+a[for="Monday"] {
+    background-color: yellow;
+}
+
+#agenda,
+#attendence,
+#unfinishedBuisness,
+#newBuisness,
+#misc,
+#pictureMedia,
+#audioMedia {
+    background-color: yellow;
+}
+
 
 /*style for all body text */
-body{
-    font-size: 1.3em;
-    width: 600px;
-    margin : 0 auto;
-    padding: 0 10pt 10pt 10pt;
-    boarder: 5px solid black;
+
+body {
+    margin: top -40px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+    padding: 35px;
 }
 
-img{
+img {
     padding: 5mm;
     width: 35pc;
-    display:block;
+    display: block;
     margin: 0 auto;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: black;
+    justify-content: right;
+}
+
+.choice {
+    background-color: #444;
+    color: black;
+    border-radius: 5px;
+    margine: 10px;
+    padding: 50px;
+    font-size: 150%;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+
 /*used for date styling*/
-.date{
 
+.date {
+    color: black;
+    text-decoration: solid underline purple 4px;
+    text-align: center;
 }
+
+
 /*used for Scehedule stlying */
-.meetingSchedule{
-    background-color: #c0c0c0;
-}
-/*used for attendence styling */
-.attendence{
-    background-color: #c0c0c0;
-}
- /*used for agenda styling */
- .agendaStyle{
-    background-color: #c0c0c0;
- }
 
- /*used for unfinishedBuisness styling */
- .unfinishedBuisnessStyle{
-    background-color: #c0c0c0;
- }
- 
- /*used for newBuisness styling */
- .newBuisnessStyle{
-    background-color: #c0c0c0;
- }
+.meetingSchedule {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+/*used for attendence styling */
+
+.attendence {
+    position: relative;
+    display: inline block;
+    width: 500px;
+    height: 300px;
+    padding: 5mm;
+    border-top-color: purple;
+    border-top-style: solid;
+    border-top-color: purple;
+    border-bottom-color: purple;
+    border-bottom-style: solid;
+    border-bottom-color: purple;
+    border-left-color: purple;
+    border-left-style: solid;
+    border-left-color: purple;
+    border-right-color: purple;
+    border-right-style: solid;
+    border-right-color: purple;
+    background-color: black;
+}
+
+
+/*used for agenda styling */
+
+.agendaStyle {
+    position: relative;
+    left: 600px;
+    display: inline block;
+    width: 500px;
+    height: 300px;
+    padding: 5mm;
+    border-top-color: purple;
+    border-top-style: solid;
+    border-top-color: purple;
+    border-bottom-color: purple;
+    border-bottom-style: solid;
+    border-bottom-color: purple;
+    border-left-color: purple;
+    border-left-style: solid;
+    border-left-color: purple;
+    border-right-color: purple;
+    border-right-style: solid;
+    border-right-color: purple;
+    background-color: black;
+}
+
+
+/*used for unfinishedBuisness styling */
+
+.unfinishedBuisnessStyle {
+    display: inline block;
+    width: 750px;
+    height: 100px;
+    padding: 5mm;
+    border-top-color: purple;
+    border-top-style: solid;
+    border-top-color: purple;
+    border-bottom-color: purple;
+    border-bottom-style: solid;
+    border-bottom-color: purple;
+    border-left-color: purple;
+    border-left-style: solid;
+    border-left-color: purple;
+    border-right-color: purple;
+    border-right-style: solid;
+    border-right-color: purple;
+    background-color: black;
+}
+
+
+/*used for newBuisness styling */
+
+.newBuisnessStyle {
+    display: inline block;
+    width: 750px;
+    height: 100px;
+    padding: 5mm;
+    border-top-color: purple;
+    border-top-style: solid;
+    border-top-color: purple;
+    border-bottom-color: purple;
+    border-bottom-style: solid;
+    border-bottom-color: purple;
+    border-left-color: purple;
+    border-left-style: solid;
+    border-left-color: purple;
+    border-right-color: purple;
+    border-right-style: solid;
+    border-right-color: purple;
+    background-color: black;
+}
+
 
 /*used for Misc styling */
- .miscStyle{
-    background-color: #c0c0c0;
- }
 
- /*used for pictureMedia styling */
- .pictureMediaStyle{
+.miscStyle {
     background-color: #c0c0c0;
- }
+}
 
- /*used for audio clip styling */
- .audioMediaStyle{
+
+/*used for pictureMedia styling */
+
+.pictureMediaStyle {
     background-color: #c0c0c0;
- }
+}
 
- /*used to change dimensions of video*/
- video{
-    padding: 1vi;
+
+/*used for audio clip styling */
+
+.audioMediaStyle {
+    background-color: #c0c0c0;
+}
+
+
+/*used to change dimensions of video*/
+
+video {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
     width: 35pc;
-    display:block;
-    margin: 1vmax;
- }
- /*used for form styling */
- .formStyle{
-    background-color: #c0c0c0;
- }
+    display: block;
+    margin: auto;
+}
 
 
- /*used for footer styling */
- .footerStyle{
+/*used for form styling */
+
+.formStyle {
     background-color: #c0c0c0;
- }
+    margin-top: -10px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 4em;
+}
+
+
+/*used for footer styling */
+
+.footerStyle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #c0c0c0;
+}
