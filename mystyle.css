@@ -21,6 +21,12 @@ html {
     border-radius: 10px;
 }
 
+@media(min-width:600px) {
+    p {
+        font-size: 1.25rem;
+    }
+}
+
 
 /* style for all li text */
 
@@ -36,6 +42,7 @@ li {
 /*setting all p text stling */
 
 p {
+    font-family: "Press Start 2p";
     color: purple;
 }
 
@@ -82,6 +89,31 @@ img {
     margin: 0 auto;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: black;
+    justify-content: right;
+}
+
+.choice {
+    background-color: #444;
+    color: black;
+    border-radius: 5px;
+    margine: 10px;
+    padding: 50px;
+    font-size: 150%;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
 
 /*used for date styling*/
 
@@ -95,6 +127,9 @@ img {
 /*used for Scehedule stlying */
 
 .meetingSchedule {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
     border-color: black;
     border-style: solid;
     border-width: 1px;
@@ -104,6 +139,10 @@ img {
 /*used for attendence styling */
 
 .attendence {
+    position: relative;
+    display: inline block;
+    width: 500px;
+    height: 300px;
     padding: 5mm;
     border-top-color: purple;
     border-top-style: solid;
@@ -124,7 +163,12 @@ img {
 /*used for agenda styling */
 
 .agendaStyle {
-    padding: 25px;
+    position: relative;
+    left: 600px;
+    display: inline block;
+    width: 500px;
+    height: 300px;
+    padding: 5mm;
     border-top-color: purple;
     border-top-style: solid;
     border-top-color: purple;
@@ -144,14 +188,46 @@ img {
 /*used for unfinishedBuisness styling */
 
 .unfinishedBuisnessStyle {
-    background-color: #c0c0c0;
+    display: inline block;
+    width: 750px;
+    height: 100px;
+    padding: 5mm;
+    border-top-color: purple;
+    border-top-style: solid;
+    border-top-color: purple;
+    border-bottom-color: purple;
+    border-bottom-style: solid;
+    border-bottom-color: purple;
+    border-left-color: purple;
+    border-left-style: solid;
+    border-left-color: purple;
+    border-right-color: purple;
+    border-right-style: solid;
+    border-right-color: purple;
+    background-color: black;
 }
 
 
 /*used for newBuisness styling */
 
 .newBuisnessStyle {
-    background-color: #c0c0c0;
+    display: inline block;
+    width: 750px;
+    height: 100px;
+    padding: 5mm;
+    border-top-color: purple;
+    border-top-style: solid;
+    border-top-color: purple;
+    border-bottom-color: purple;
+    border-bottom-style: solid;
+    border-bottom-color: purple;
+    border-left-color: purple;
+    border-left-style: solid;
+    border-left-color: purple;
+    border-right-color: purple;
+    border-right-style: solid;
+    border-right-color: purple;
+    background-color: black;
 }
 
 
@@ -203,5 +279,8 @@ video {
 /*used for footer styling */
 
 .footerStyle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
     background-color: #c0c0c0;
 }
