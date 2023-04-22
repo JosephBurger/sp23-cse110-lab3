@@ -61,18 +61,18 @@ a[for="Monday"] {
 #pictureMedia,
 #audioMedia {
     background-color: yellow;
-    border
 }
 
 
 /*style for all body text */
 
 body {
-    font-size: 1.3em;
-    width: 600px;
-    margin: 0 auto;
-    padding: 0 10pt 10pt 10pt;
-    boarder: 5px solid black;
+    margin: top -40px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+    padding: 35px;
 }
 
 img {
@@ -87,6 +87,8 @@ img {
 
 .date {
     color: black;
+    text-decoration: solid underline purple 4px;
+    text-align: center;
 }
 
 
@@ -102,6 +104,7 @@ img {
 /*used for attendence styling */
 
 .attendence {
+    padding: 5mm;
     border-top-color: purple;
     border-top-style: solid;
     border-top-color: purple;
@@ -121,6 +124,19 @@ img {
 /*used for agenda styling */
 
 .agendaStyle {
+    padding: 25px;
+    border-top-color: purple;
+    border-top-style: solid;
+    border-top-color: purple;
+    border-bottom-color: purple;
+    border-bottom-style: solid;
+    border-bottom-color: purple;
+    border-left-color: purple;
+    border-left-style: solid;
+    border-left-color: purple;
+    border-right-color: purple;
+    border-right-style: solid;
+    border-right-color: purple;
     background-color: black;
 }
 
@@ -163,10 +179,13 @@ img {
 /*used to change dimensions of video*/
 
 video {
-    padding: 1vi;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
     width: 35pc;
     display: block;
-    margin: 1vmax;
+    margin: auto;
 }
 
 
@@ -174,6 +193,10 @@ video {
 
 .formStyle {
     background-color: #c0c0c0;
+    margin-top: -10px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 4em;
 }
 
 
