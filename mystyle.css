@@ -1,96 +1,184 @@
-html {background-color:#5A5A5A}
-/* used for header styling */
-.box{
-    background-color: #c0c0c0;
+html {
+    background-color: #5A5A5A
 }
 
-/*used for "Group 20 Brainstorming styling*/
-.Title{
-    background-color:black;
-    color:purple;
+
+/* used for header styling */
+
+.box {
+    background-color: lavender;
 }
+
+
+/*used for "Group 20 Brainstorming styling*/
+
+.Title {
+    background-color: black;
+    color: purple;
+    border-width: 1px;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 10px;
+}
+
+
 /* style for all li text */
-li{
+
+li {
     color: purple;
 }
 
-/*setting all p text stling */
-p{
-    color:purple;
+* {
+    color: Purple;
 }
 
+
+/*setting all p text stling */
+
+p {
+    color: purple;
+}
+
+a:hover[href="#attendence"],
+a:hover[href="#unfinishedBuisness"],
+a:hover[href="#agenda"],
+a:hover[href="#misc"],
+a:hover[href="#pictureMedia"],
+a:hover[href="#audioMedia"],
+a:hover[href="#newBuisness"] {
+    background-color: yellow;
+}
+
+a[for="Monday"] {
+    background-color: yellow;
+}
+
+#agenda,
+#attendence,
+#unfinishedBuisness,
+#newBuisness,
+#misc,
+#pictureMedia,
+#audioMedia {
+    background-color: yellow;
+    border
+}
+
+
 /*style for all body text */
-body{
+
+body {
     font-size: 1.3em;
     width: 600px;
-    margin : 0 auto;
+    margin: 0 auto;
     padding: 0 10pt 10pt 10pt;
     boarder: 5px solid black;
 }
 
-img{
+img {
     padding: 5mm;
     width: 35pc;
-    display:block;
+    display: block;
     margin: 0 auto;
 }
 
+
 /*used for date styling*/
-.date{
 
+.date {
+    color: black;
 }
+
+
 /*used for Scehedule stlying */
-.meetingSchedule{
-    background-color: #c0c0c0;
-}
-/*used for attendence styling */
-.attendence{
-    background-color: #c0c0c0;
-}
- /*used for agenda styling */
- .agendaStyle{
-    background-color: #c0c0c0;
- }
 
- /*used for unfinishedBuisness styling */
- .unfinishedBuisnessStyle{
+.meetingSchedule {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+/*used for attendence styling */
+
+.attendence {
+    border-top-color: purple;
+    border-top-style: solid;
+    border-top-color: purple;
+    border-bottom-color: purple;
+    border-bottom-style: solid;
+    border-bottom-color: purple;
+    border-left-color: purple;
+    border-left-style: solid;
+    border-left-color: purple;
+    border-right-color: purple;
+    border-right-style: solid;
+    border-right-color: purple;
+    background-color: black;
+}
+
+
+/*used for agenda styling */
+
+.agendaStyle {
+    background-color: black;
+}
+
+
+/*used for unfinishedBuisness styling */
+
+.unfinishedBuisnessStyle {
     background-color: #c0c0c0;
- }
- 
- /*used for newBuisness styling */
- .newBuisnessStyle{
+}
+
+
+/*used for newBuisness styling */
+
+.newBuisnessStyle {
     background-color: #c0c0c0;
- }
+}
+
 
 /*used for Misc styling */
- .miscStyle{
-    background-color: #c0c0c0;
- }
 
- /*used for pictureMedia styling */
- .pictureMediaStyle{
+.miscStyle {
     background-color: #c0c0c0;
- }
+}
 
- /*used for audio clip styling */
- .audioMediaStyle{
+
+/*used for pictureMedia styling */
+
+.pictureMediaStyle {
     background-color: #c0c0c0;
- }
+}
 
- /*used to change dimensions of video*/
- video{
+
+/*used for audio clip styling */
+
+.audioMediaStyle {
+    background-color: #c0c0c0;
+}
+
+
+/*used to change dimensions of video*/
+
+video {
     padding: 1vi;
     width: 35pc;
-    display:block;
+    display: block;
     margin: 1vmax;
- }
- /*used for form styling */
- .formStyle{
-    background-color: #c0c0c0;
- }
+}
 
 
- /*used for footer styling */
- .footerStyle{
+/*used for form styling */
+
+.formStyle {
     background-color: #c0c0c0;
- }
+}
+
+
+/*used for footer styling */
+
+.footerStyle {
+    background-color: #c0c0c0;
+}
