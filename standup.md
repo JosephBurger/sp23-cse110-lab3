@@ -1,6 +1,7 @@
 #Standup meeting template
+##All team members should profile their priorities, progress, and problems each day in this report.
 
-|   | Name | Priorities | Progress |
+|   | Name | priorities | Progress |
 |---|------|------------|----------|
 | 1 |      |            |          |
 | 2 |      |            |          |
